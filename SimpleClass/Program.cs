@@ -13,7 +13,7 @@ namespace SimpleClass
         static void Main(string[] args)
         {
             var txtBagContents = "Items in Bag";
-
+            // comment
             ICollectable rubystone = Creator.Collectable();
             rubystone.Name = "Ruby Stone";
             rubystone.Points = 200;
